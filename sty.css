@@ -1,0 +1,36 @@
+#container{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+.cell{
+    width:75px;
+    height:75px;
+    border-bottom: 6px solid;
+    border-right: 4px solid;
+    font-size: 50px;
+    cursor: pointer;
+    transform: rotateZ(5deg);
+    
+}
+
+.cell:hover{
+    transform: rotateZ(8deg);
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width:225px;
+    margin:auto;
+    
+}
+
+#restart{
+    background-color: black;
+    color:white;
+    padding: 8px 15px;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 20px;
+}
